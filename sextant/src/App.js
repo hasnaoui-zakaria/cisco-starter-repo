@@ -5,9 +5,11 @@ import Exhibit from './Exhibit.js';
 function App() {
   return (
     <div className="App">
-      <Banner />
-      <Exhibit />
-    </div>
+                <Banner bannerText="Sextant" />
+                <Exhibit name="I'm an exhibit!"></Exhibit>
+                <Exhibit name="I'm also an exhibit!"></Exhibit>
+                <Exhibit name="Don't forget about me, I'm an exhibit too!"></Exhibit>
+            </div>
   );
 }
 
